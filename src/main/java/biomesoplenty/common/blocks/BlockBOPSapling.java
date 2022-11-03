@@ -172,7 +172,7 @@ public class BlockBOPSapling extends BlockSapling
 				obj = new WorldGenBOPTaiga2(BOPCBlocks.logs1, BOPCBlocks.leaves2, 3, 1, false, 10, 10, 5, 4);
 				break;
 
-				/*case 7: // Ethereal Tree
+			/*case 7: // Ethereal Tree
 				obj = new WorldGenPromisedTree(false);
 				break;*/
 

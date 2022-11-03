@@ -250,6 +250,8 @@ public class BOPBlocks
 
         crystal = registerBlock(new BlockBOPGeneric(Material.glass, BlockType.CRYSTAL).setBlockName("crystal"));
 
+        registerBlock(new BlockPromisedPortal().setBlockName("promisedPortal"));
+
 		gemOre = registerBlock(new BlockBOPGems().setBlockName("gemOre"), ItemBlockGems.class);
 
         cragRock = registerBlock(new BlockBOPGeneric(Material.rock, BlockType.CRAG_ROCK).setBlockName("cragRock"));

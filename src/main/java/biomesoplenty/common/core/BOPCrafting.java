@@ -218,14 +218,14 @@ public class BOPCrafting
 		GameRegistry.addRecipe(new ItemStack(BOPCItems.flowerBand, 1, 2), new Object [] {"CDC", "V V", "CDC", Character.valueOf('C'), new ItemStack(BOPCBlocks.flowers, 1, 0),Character.valueOf('D'), new ItemStack(BOPCBlocks.flowers, 1, 5), Character.valueOf('V'), new ItemStack(BOPCBlocks.flowers, 1, 8)});
 		GameRegistry.addRecipe(new ItemStack(BOPCItems.flowerBand, 1, 3), new Object [] {"CDT", "V V", "TDC", Character.valueOf('C'), new ItemStack(BOPCBlocks.flowers, 1, 0),Character.valueOf('D'), new ItemStack(BOPCBlocks.flowers, 1, 5), Character.valueOf('V'), new ItemStack(BOPCBlocks.flowers, 1, 8), Character.valueOf('T'), new ItemStack(BOPCBlocks.flowers, 1, 6)});
 
-		/*if (BOPConfigurationMisc.staffCrafting)
+		if (BOPConfigurationMisc.staffCrafting)
 		{
 			GameRegistry.addRecipe(new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 0), new Object[] {"T", "P", "H", 'T', new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 3), 'P', new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 2), 'H', new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 1)});
 			GameRegistry.addRecipe(new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 1), new Object[] {"ESE", "ETE", " E ", 'E', Blocks.end_stone, 'T', new ItemStack(BOPCItems.gems, 1, 4), 'S', new ItemStack(BOPCItems.gems, 1, 6)});
 			GameRegistry.addRecipe(new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 2), new Object[] {"EPE", "EEE", "EAE", 'E', Blocks.end_stone, 'P', new ItemStack(BOPCItems.gems, 1, 2), 'A', new ItemStack(BOPCItems.gems, 1, 5)});
 			GameRegistry.addRecipe(new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 3), new Object[] {" N ", "ERE", "ETE", 'E', Blocks.end_stone, 'R', new ItemStack(BOPCItems.gems, 1, 1), 'T', new ItemStack(BOPCItems.gems, 1, 3), 'N', Items.nether_star});
 			GameRegistry.addShapelessRecipe(new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 0), new ItemStack(BOPItemHelper.get("ancientStaff"), 1, 4), new ItemStack(Items.nether_star, 1));
-		}*/
+		}
 
 		GameRegistry.addRecipe(new ItemStack(BOPCItems.enderporter, 1, 0), new Object[] {"IOI", "OAO", "IOI", 'I', Items.ender_eye, 'O', new ItemStack(BOPCItems.misc, 1, 10), 'A', new ItemStack(BOPCItems.gems, 1, 0)});
 

@@ -83,7 +83,7 @@ public class ItemJarFilled extends Item
 	{
 		if (itemStack.getItemDamage() == 2)
 		{
-			if (entityPlayer.dimension == 0)
+			if (entityPlayer.dimension == 0 || entityPlayer.dimension == BOPConfigurationIDs.promisedLandDimID)
 			{
 				Block block = world.getBlock(x, y, z);
 				x += Facing.offsetsXForSide[side];

@@ -15,7 +15,7 @@ import biomesoplenty.common.armor.ItemFlippers;
 import biomesoplenty.common.armor.ItemFlowerBand;
 import biomesoplenty.common.armor.ItemMuddyArmor;
 import biomesoplenty.common.armor.ItemWadingBoots;
-import biomesoplenty.common.items.ItemBOPAncientStaff;
+import biomesoplenty.common.items.ItemBOPAncientStaff; // Ancient Staff
 import biomesoplenty.common.items.ItemBOPAxe;
 import biomesoplenty.common.items.ItemBOPBiomeEssence;
 import biomesoplenty.common.items.ItemBOPBucket;
@@ -73,7 +73,7 @@ public class BOPItems
 		dartBlower = registerItem(new ItemDartBlower().setUnlocalizedName("dartBlower"));
 		dart = registerItem(new ItemDart().setUnlocalizedName("dart"));
 		
-		ancientStaff = registerItem(new ItemBOPAncientStaff().setUnlocalizedName("ancientStaff"));
+		ancientStaff = registerItem(new ItemBOPAncientStaff().setUnlocalizedName("ancientStaff")); // Ancient Staff
 		enderporter = registerItem(new ItemEnderporter().setUnlocalizedName("enderporter"));
 		
 		bopBucket = registerItem(new ItemBOPBucket().setUnlocalizedName("bopBucket"));

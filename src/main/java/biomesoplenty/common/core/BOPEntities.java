@@ -64,7 +64,8 @@ public class BOPEntities
 
 		EntityRegistry.registerModEntity(EntityBird.class, "Bird", EntID++, BiomesOPlenty.instance, 80, 3, true);
 		registerEntityEgg(EntityBird.class, 5277691, 16772788);
-		/*TODO: FEATURE if (Biomes.promisedLandForest.isPresent() && Biomes.promisedLandSwamp.isPresent() && Biomes.promisedLandPlains.isPresent() && Biomes.promisedLandShrub.isPresent())
+		/*TODO: FEATURE
+		if (Biomes.promisedLandForest.isPresent() && Biomes.promisedLandSwamp.isPresent() && Biomes.promisedLandPlains.isPresent() && Biomes.promisedLandShrub.isPresent())
 		{
 			EntityRegistry.addSpawn(EntityBird.class, 10, 3, 5, EnumCreatureType.ambient, Biomes.promisedLandForest.get(), Biomes.promisedLandSwamp.get(), Biomes.promisedLandPlains.get(), Biomes.promisedLandShrub.get());
 		}*/

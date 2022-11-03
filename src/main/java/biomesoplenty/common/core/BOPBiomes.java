@@ -84,6 +84,7 @@ import static biomesoplenty.api.content.BOPCBiomes.wasteland;
 import static biomesoplenty.api.content.BOPCBiomes.wetland;
 import static biomesoplenty.api.content.BOPCBiomes.woodland;
 import static biomesoplenty.api.content.BOPCBiomes.xericShrubland;
+import static biomesoplenty.common.configuration.BOPConfigurationIDs.promisedLandDimID;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -201,6 +202,9 @@ import biomesoplenty.common.biome.overworld.sub.BiomeGenTropics;
 import biomesoplenty.common.biome.overworld.sub.BiomeGenVolcano;
 import biomesoplenty.common.biome.overworld.tech.BiomeGenDryRiver;
 import biomesoplenty.common.biome.overworld.tech.BiomeGenLushRiver;
+import biomesoplenty.common.biomes.promisedland.BiomeGenPromisedLandForest;
+import biomesoplenty.common.biomes.promisedland.BiomeGenPromisedLandPlains;
+import biomesoplenty.common.biomes.promisedland.BiomeGenPromisedLandSwamp;
 import biomesoplenty.common.configuration.BOPConfigurationBiomeGen;
 import biomesoplenty.common.configuration.BOPConfigurationBiomeWeights;
 import biomesoplenty.common.configuration.BOPConfigurationIDs;
@@ -340,6 +344,11 @@ public class BOPBiomes
         //River Biomes
         lushRiver = registerOverworldRiverBiome(BiomeGenLushRiver.class, "Lush River", lushSwamp, lavenderFields, flowerField, bambooForest, cherryBlossomGrove, lushDesert, meadow, spruceWoods, rainforest, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.jungleEdge, BiomeGenBase.jungleHills);
         dryRiver = registerOverworldRiverBiome(BiomeGenDryRiver.class, "Dry River", outback, steppe, BiomeGenBase.desert, BiomeGenBase.desertHills);
+
+        //registerBiome(new BOPBiomeEntry(new BiomeGenPromisedLandForest(BOPConfigurationIDs.promisedLandShrubID).setBiomeName("Sublime Shrubland"), TemperatureType., ), promisedLandDimID);
+        registerBiome(new BOPBiomeEntry(new BiomeGenPromisedLandForest(BOPConfigurationIDs.wonderousWoodsID).setBiomeName("Wonderous Woods"), TemperatureType.WARM, 50), promisedLandDimID);
+        registerBiome(new BOPBiomeEntry(new BiomeGenPromisedLandPlains(BOPConfigurationIDs.majesticMeadowID).setBiomeName("Majestic Meadow"), TemperatureType.WARM, 50), promisedLandDimID);
+        registerBiome(new BOPBiomeEntry(new BiomeGenPromisedLandSwamp(BOPConfigurationIDs.blessedBogID).setBiomeName("Blessed Bog"), TemperatureType.WARM, 50), promisedLandDimID);
 	}
 	
 	private static void registerOverriddenBiomes()
@@ -427,6 +436,12 @@ public class BOPBiomes
         registerBiomeToDictionary(BOPCBiomes.outback, Type.SANDY, Type.PLAINS, Type.SAVANNA, Type.DRY, Type.HOT);
         registerBiomeToDictionary(BOPCBiomes.phantasmagoricInferno, Type.NETHER, Type.SPOOKY);
         registerBiomeToDictionary(BOPCBiomes.prairie, Type.PLAINS, Type.DRY, Type.SPARSE);
+
+        BiomeDictionary.registerBiomeType(BOPBiomeHelper.get(promisedLandDimID, "wonderousWoods"), Type.FOREST, Type.MAGICAL);
+        BiomeDictionary.registerBiomeType(BOPBiomeHelper.get(promisedLandDimID, "majesticMeadow"), Type.PLAINS, Type.MAGICAL);
+        //BiomeDictionary.registerBiomeType(BOPBiomeHelper.get(promisedLandDimID, "promisedLandShrub"), Type.PLAINS, Type.FOREST, Type.MAGICAL);
+        BiomeDictionary.registerBiomeType(BOPBiomeHelper.get(promisedLandDimID, "blessedBog"), Type.SWAMP, Type.MAGICAL);
+
         registerBiomeToDictionary(BOPCBiomes.quagmire, Type.SWAMP, Type.WASTELAND, Type.SPOOKY, Type.WET, Type.DEAD);
         registerBiomeToDictionary(BOPCBiomes.rainforest, Type.JUNGLE, Type.HILLS, Type.FOREST, Type.LUSH, Type.WET, Type.DENSE);
         registerBiomeToDictionary(BOPCBiomes.redwoodForest, Type.FOREST, Type.CONIFEROUS, Type.DENSE);

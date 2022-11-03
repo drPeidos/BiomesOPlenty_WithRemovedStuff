@@ -15,7 +15,7 @@ public abstract class BiomeLayerHell extends GenLayer
 			biomesize = 2;
 		}
 
-		//Hell and promised biome gen
+		//Hell and Promised biome gen
 		BiomeLayerHell obj = new BiomeLayerHellCreate(1L, false);
 		obj = new BiomeLayerHellFuzzyZoom(2000L, (obj));
 		for(int i = 1; i < 3; i++) { obj = new BiomeLayerHellZoom(2000L + i, (obj)); }
