@@ -168,6 +168,8 @@ tile.newBopFarmland.loamy.name=Loamy Farmland
 tile.bopGrass.spectralmoss.name=Spectral Moss
 tile.bopGrass.smolderinggrass.name=Smoldering Grass Block
 
+tile.promisedPortal.name=Promised Land Portal
+
 tile.gemOre.amethystore.name=Ender Amethyst Ore
 tile.gemOre.amethystblock.name=Block of Amethyst
 tile.gemOre.rubyore.name=Ruby Ore
@@ -446,6 +448,9 @@ biomeRadar.foundBiome=Found Biome!
 biomeRadar.scanBiome=Right click to scan for biome
 
 enderporter.prevent=A mystical energy is preventing you from using this in the current world.
+
+phrase.bop.promisedPortalOverworld=A gateway to the Promised Land has appeared in the sky above.
+phrase.bop.promisedPortalOther=A gateway to the Overworld has appeared in the sky above.
 
 phrase.bop.useBOPATGWorldtype=The Biomes O' Plenty world type or ATG world type must be used in order for the new biomes to generate. This message will only display once.
 phrase.bop.useBOPWorldtype=The Biomes O' Plenty world type must be used in order for the new biomes to generate. This message will only display once.
