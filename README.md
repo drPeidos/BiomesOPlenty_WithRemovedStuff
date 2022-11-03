@@ -1,3 +1,95 @@
+## BIOMES O' PLENTY Fork To Add Removed Stuff ##
+
+This fork is for those who love Biomes O' Plenty and who miss the old removed things like The Promised Lands dimension.
+
+A list with all the removed things:
+-Dimensions
+--The Promised Lands
+-Biomes (biomes that were replaced by updates to the base game (like the Mesa biome) are not included in this list (for now))
+--Blessed Bog (biome in the promised lands)
+--Wonderous Woods (biome in the promised lands)
+--Majestic Meadow (biome in the promised lands)
+--Sublime Shrubland (biome in the promised lands)
+--is there a 5th promised lands biome?
+--Bog
+--Boneyard (biome in the nether)
+--Canyon
+--Crag
+--Dense Forest
+--Dried River
+--Dunes
+--Eucalyptus Forest
+--Fen
+--Flower Island
+--Glacier
+--Heathland
+--Hot Springs
+--Icy Hills
+--Jade Cliffs
+--Lush Desert
+--Oceanic Abyss
+--Outback
+--Overgrown Beach
+--Overgrown Cliffs
+--Overgrown Island
+--Polar Chasm (biome in the nether)
+--Sludgepit
+--Steppe
+--Thicket
+--Timber
+--Wasteland
+-Worldgen (Blocks & Plants)
+--Hives
+--Dirt variants
+--Netherrack variants
+--Blood
+--Quicksand
+--Honey
+--Gems
+--Poison ivy
+--Leaf piles
+--Clover
+--Shrubs
+--Thorns
+--Desert sprouts
+--Sprouts
+--Rafflesia
+--Deathbloom
+--Bromeliads
+--Swampflowers
+--Bluebells
+--Anemones
+--Ice flowers
+--Underground flower Miner's Delight
+--Lilypad variants
+--Mushroom variants
+--Ivy
+--Wild rice
+--All nether plants
+-Mobs
+--Birds
+--Butterflies
+--Deer
+--Dragonflies
+--Ice blazes
+--Mud slimes
+--Nether wasps
+--Phantoms
+--Pixies
+--Rose chickens
+--Snails
+--Turkeys
+Note: don't know if this list is 100% correct; this list is a compilation of information found all over the internet (thank you to all that supplied this information).
+
+Thank you to the developers of Biomes O' Plenty.
+
+
+
+
+Original Biomes O' Plenty readme file:
+
+
+
 [<img src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png">](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US)
 
 Biomes O' Plenty is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US).

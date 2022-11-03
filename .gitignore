@@ -43,3 +43,204 @@ build_number.properties
 .classpath
 /bin/
 /build/
+
+
+
+
+# Maven
+**/target/
+*.releaseBackup
+/release.properties
+/ear/release.properties
+
+# Gradle
+.gradle
+**/build/
+
+# Gradle wrapper jar musn't be ignored
+!gradle-wrapper.jar
+
+# Gradle GUI config
+gradle-app.setting
+
+# Gradle cache of project
+.gradletasknamecache
+
+# Gradle work around https://youtrack.jetbrains.com/issue/IDEA-116898
+#gradle/wrapper/gradle-wrapper.properties
+
+# Gradle oh-my-zsh plugin
+.gradletasknamecache
+
+# Package files ("gradle-wrapper.jar" gets versioned, even if in this file is '*.jar' uncommented, because in this file is '!gradle-wrapper.jar')
+#*.jar
+*.ear
+*.war
+
+# SVN
+/.svn
+
+# Logs
+*.log
+
+# Java
+*.class
+
+# Java annotation processor (APT)
+.factorypath
+
+# Java virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# BlueJ
+*.ctxt
+
+# JDeveloper
+/*/database/
+/*/classes/
+/*/build
+/*/build
+/.data/
+/*.jws
+/*.jpr
+/*/*.jpr
+/*.library
+/*/*.library
+
+# IntelliJ IDEA
+.idea/
+.shelf
+*.iml
+*.ipr
+*.iws
+out/
+
+# IntelliJ IDEA TeamCity
+.teamcity
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nb-configuration.xml
+nbactions.xml
+
+# NetBeans Gradle
+.nb-gradle
+.nb-gradle-properties
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse core
+.project
+
+# Eclipse locally stored launch configurations
+*.launch
+
+# Eclipse JDT (Java Development Tools)
+.classpath
+
+# Eclipse CDT (C/C++ Development Tooling)
+.cproject
+
+# Eclipse PDT (PHP Development Tools)
+.buildpath
+
+# Eclipse external tool builders
+.externalToolBuilders/
+
+# Eclipse STS (Spring Tool Suite)
+.springBeans
+
+# Eclipse Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Eclipse PyDev (Python IDE for Eclipse)
+*.pydevproject
+
+# Eclipse TeXlipse plugin
+.texlipse
+
+# Eclipse Code Recommenders plugin
+.recommenders/
+*~
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# Linux/Unix temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# Linux trash folder
+.Trash-*
+
+# KDE directory preferences
+.directory
+
+# NFS files
+.nfs*
+
+# Windows installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows folder config file
+Desktop.ini
+
+# Windows recycle bin
+$RECYCLE.BIN/
+
+# Apple files (Icon ends with two \r, that's the reason for using 'Icon?')
+Icon?
+!Icons
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Apple files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Apple directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Apple thumbnails
+._*
+
+# Amazon Web Services
+.elasticbeanstalk
